@@ -1,0 +1,129 @@
+<body>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Coal County Water</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+	<link href="css/main.css" rel="stylesheet">
+	<!-- Custom Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i" rel="stylesheet">
+    
+</head>
+
+<div id="map" style="width:100%;height:400px;"></div>
+
+<script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+
+  var pond1pos = {lat: 34.600577, lng: -96.264986};
+  var pond2pos = {lat: 34.601738, lng: -96.261954};
+  var pond3pos = {lat: 34.603402, lng: -96.261431};
+  var pond4pos = {lat: 34.5948736, lng: -96.2569505};
+
+  var mapOptions = {
+    center: pond1pos,
+    zoom: 15,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+  };
+
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+
+  var marker1 = new google.maps.Marker({
+          position: pond1pos,
+          map: map,
+          title: 'Pond 1'
+        });
+  var marker2 = new google.maps.Marker({
+          position: pond2pos,
+          map: map,
+          title: 'Pond 2'
+        });
+  var marker3 = new google.maps.Marker({
+          position: pond3pos,
+          map: map,
+          title: 'Pond 3'
+        });
+  var marker4 = new google.maps.Marker({
+          position: pond4pos,
+          map: map,
+          title: 'Pond 4'
+        });
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+<img src="images\pond1.PNG" alt="Main Menu">
+<img src="images\watersign.PNG" alt="Main Menu">
+
+Pond # 1 - 6 million gallons
+Pond # 2 - 7 million gallons
+Pond # 3 - .8 million gallons
+Pond # 4 - 6.5 million gallons
+
+
+https://www.google.com/maps/@34.60059,-96.2661051,328m/data=!3m1!1e3
+Pond #1 Water Resources Approved
+Permitted Surface Water Diversion Points: 20160026
+Record ID 70801
+Permit Number 20160026
+Latitude 34.60
+Longitude -96.27
+Record Type Permit
+Water Type Surface Water
+Status Active
+Entity Name Inman Family LLC
+
+https://www.google.com/maps/@34.6015466,-96.2635658,778m/data=!3m1!1e3
+Pond #2 Water Resources Approved
+Permitted Surface Water Diversion Points: 20160026
+Record ID 70799
+Permit Number 20160026
+Latitude 34.60
+Longitude -96.26
+Record Type Permit
+Water Type Surface Water
+Status Active
+Entity Name Inman Family LLC
+
+https://www.google.com/maps/@34.601633,-96.2631092,327m/data=!3m1!1e3
+Pond #3 Water Resources Approved
+Permitted Surface Water Diversion Points: 20160026
+Record ID 70802
+Permit Number 20160026
+Latitude 34.60
+Longitude -96.26
+Record Type Permit
+Water Type Surface Water
+Status Active
+Entity Name Inman Family LLC
+
+https://www.google.com/maps/@34.5948736,-96.2569505,193m/data=!3m1!1e3
+Pond #4 Water Resources Approved
+Permitted Surface Water Diversion Points: 20160026
+Record ID 70800
+Permit Number 20160026
+Latitude 34.60
+Longitude -96.26
+Record Type Permit
+Water Type Surface Water
+Status Active
+Entity Name Inman Family LLC
+
+Sales: 918-575-4055 (text or call) web page CoalCountyWater.com
+Billing contact: 405-245-5194 (text or call) / jinman@pldi.net
+Billing address: Inman Family LLC 514 N. 2nd St Okarche OK 73762
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+</body>
+</html>
